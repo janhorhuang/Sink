@@ -1,0 +1,8 @@
+[[kv_namespaces]]
+binding = "KV"
+id = "46a84db7d8f347ad9c39e5612efbeb9a"     # ← 改成你自己在 Cloudflare 创建的 KV ID
+
+# 如果你也用了 R2，可以加上下面这段
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "sink"
